@@ -7,7 +7,7 @@
 
 
 ## Rotate Image
-adadadada
+
 
 ## Background Subtraction
 
