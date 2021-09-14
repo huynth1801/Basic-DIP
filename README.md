@@ -10,6 +10,10 @@
 
 
 ## Background Subtraction
+Bước 1: Chúng ta tiền xử lý ảnh về cùng size, làm mờ ảnh bằng bộ lọc Gaussian.
+Bước 2: Lấy 2 ảnh trừ nhau ở đây là lấy ảnh Observed Image trừ cho ảnh Background, chuyển ảnh sang gray nếu giá trị tại một vị trí pixel > threshold thì coi đây là object, ta gán giá trị cho nó là 255, tức là màu trắng ngược lại gán 0 (màu đen)
+Bước 3: Thực hiện invert mask
+Bước 4: Sử dụng mask để trích xuất các phần liên quan giữa Foreground và Background
 
 
 ## Cosine Similarity
